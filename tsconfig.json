@@ -12,6 +12,10 @@
     "noFallthroughCasesInSwitch": true,
     "sourceMap": true,
     "paths": {
+      "my-cdk/*": [
+        "projects/my-cdk/*",
+        "projects/my-cdk"
+      ],
       "my-cdk": [
         "dist/my-cdk/my-cdk",
         "dist/my-cdk"
